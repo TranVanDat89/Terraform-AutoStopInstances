@@ -1,0 +1,32 @@
+# Terraform local files
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+*.backup
+
+# Crash log
+crash.log
+
+# Terraform plan files
+*.tfplan
+
+# .terraform directory (modules, plugins, backend state, etc.)
+.terraform/
+
+# Sensitive files (optional, nếu bạn lưu riêng)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore editor settings (optional)
+.idea/
+.vscode/
+*.swp
+
+# Keypair
+keypair/
+
+*.zip
+./sources/*.zip
